@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-space-mono: 'Space Mono', monospace;
+  --font-lora: 'Lora', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F2EDE3;
+  color: #1C1810;
+  font-family: var(--font-lora), Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle grain texture */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.4'/%3E%3C/svg%3E");
+  opacity: 0.045;
+  pointer-events: none;
+  z-index: 9998;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-space-mono), 'Courier New', monospace;
+}
+
+/* Dashed divider utility */
+.divider-dashed {
+  border: none;
+  border-top: 1.5px dashed #CFC4B4;
+}
+
+/* Rough card border */
+.card-rough {
+  border: 1.5px solid #C4B8A6;
+  position: relative;
+}
+
+/* Stop number badge */
+.stop-badge {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1.5px solid currentColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-space-mono), monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* Selection color */
+::selection {
+  background-color: #B85C38;
+  color: #FAF6EE;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px dashed #B85C38;
+  outline-offset: 3px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #E8E0D4;
+}
+::-webkit-scrollbar-thumb {
+  background: #9B8C7A;
+  border-radius: 3px;
+}
