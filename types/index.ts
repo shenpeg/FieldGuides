@@ -4,6 +4,8 @@ export interface Stop {
   description: string
   url: string
   curatorNote?: string
+  screenshot?: string
+  bridgeNote?: string
 }
 
 export interface Guide {

@@ -17,6 +17,7 @@ export const guides: Guide[] = [
         description: 'A collection of small, weird, and wonderful interactive experiments. Spend 20 minutes here and you won\'t notice.',
         url: 'https://neal.fun',
         curatorNote: 'Start with "Spend Bill Gates\' Money." Trust us.',
+        bridgeNote: 'Neal.fun proves the web can be joyful with no agenda. Wiby.me shows you what it looked like when that was the whole point — personal pages built for no one in particular.',
       },
       {
         id: 'wiby',
@@ -24,6 +25,7 @@ export const guides: Guide[] = [
         description: 'A search engine that only indexes old-school websites — the kind built by hand in the late 90s and early 2000s.',
         url: 'https://wiby.me',
         curatorNote: 'Try searching something personal. See what the old web thought about it.',
+        bridgeNote: 'If Wiby.me is sincere, The Useless Web is the id — pure impulse, no agenda. A single button that sends you somewhere you didn\'t ask for and probably needed.',
       },
       {
         id: 'useless-web',
@@ -31,6 +33,7 @@ export const guides: Guide[] = [
         description: 'Press the button. Go somewhere useless. Repeat until you find something you love.',
         url: 'https://theuselessweb.com',
         curatorNote: 'Surrender to it. The algorithm-free algorithm.',
+        bridgeNote: 'After the absurd, the global. Radio Garden reminds you that behind every URL is a place with weather, time zones, and people who sound different than you.',
       },
       {
         id: 'radio-garden',
@@ -38,6 +41,7 @@ export const guides: Guide[] = [
         description: 'A rotating globe of the entire world\'s radio stations, broadcast live. Spin it anywhere.',
         url: 'https://radio.garden',
         curatorNote: 'Find a station in a city you\'ve never visited. Listen for five minutes.',
+        bridgeNote: 'Radio Garden anchors you in the real world. Windows 93 does the opposite — it simulates a world that never quite existed, and somehow that feels just as true.',
       },
       {
         id: 'windows93',
@@ -64,6 +68,8 @@ export const guides: Guide[] = [
         description: 'The web\'s memory palace. Over 835 billion saved pages, plus millions of books, movies, music, and software. A library for everything that almost disappeared.',
         url: 'https://archive.org',
         curatorNote: 'Search for something you loved from the early internet. There\'s a good chance it\'s still here.',
+        screenshot: '/screenshots/archive.png',
+        bridgeNote: 'Memory requires a mood to live in. Poolside.fm doesn\'t document the past — it recreates the feeling of one specific summer that may never have existed.',
       },
       {
         id: 'poolside-fm',
@@ -71,6 +77,8 @@ export const guides: Guide[] = [
         description: 'A website-as-aesthetic. Eternal summer, 1984. Vaporwave before vaporwave had a name. Music plays. Nothing else needs to happen.',
         url: 'https://poolside.fm',
         curatorNote: 'Put it on in the background. Let it run.',
+        screenshot: '/screenshots/poolside.png',
+        bridgeNote: 'Zoom out further. The Earth itself has rhythms — pressure systems, jet streams, ocean currents. Earth Wind & Weather makes them visible.',
       },
       {
         id: 'earth-wind',
@@ -78,6 +86,8 @@ export const guides: Guide[] = [
         description: 'A real-time visualization of global wind, weather, and ocean currents. The planet, breathing.',
         url: 'https://earth.nullschool.net',
         curatorNote: 'Zoom out all the way. Watch the poles. Something about this always makes me feel small in the good way.',
+        screenshot: '/screenshots/earth.png',
+        bridgeNote: 'Human hands made this, not algorithms. Cameron\'s World is what people built when they had no audience and no metrics — just time and something to say.',
       },
       {
         id: 'camerons-world',
@@ -85,6 +95,7 @@ export const guides: Guide[] = [
         description: 'A lovingly assembled collage of GIFs, text, and imagery salvaged from deleted GeoCities pages. The early web, reassembled.',
         url: 'https://www.cameronsworld.net',
         curatorNote: 'Scroll slowly. This is what it felt like to be online in 1997.',
+        bridgeNote: 'Cameron preserved what was lost. Neocities is proof that people never stopped making it — the personal web is still alive, still weird, still worth finding.',
       },
       {
         id: 'neocities',

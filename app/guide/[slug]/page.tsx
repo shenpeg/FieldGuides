@@ -101,7 +101,7 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
-                href={`/guide/${guide.slug}/explore`}
+                href={`/guide/${guide.slug}/field-trip?solo=true`}
                 className="flex-1 text-center font-mono text-sm py-3 px-5 bg-ink text-cream hover:bg-ink/90 transition-colors"
               >
                 Explore Solo →

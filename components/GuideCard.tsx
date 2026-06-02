@@ -55,7 +55,7 @@ export default function GuideCard({ guide, rotation }: GuideCardProps) {
       {/* CTAs */}
       <div className="flex flex-col gap-2 mt-auto pt-2">
         <Link
-          href={`/guide/${guide.slug}/explore`}
+          href={`/guide/${guide.slug}/field-trip?solo=true`}
           className="block text-center font-mono text-sm py-2.5 px-4 bg-ink text-cream hover:bg-ink/90 transition-colors"
         >
           Explore Solo →
